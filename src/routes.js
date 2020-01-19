@@ -58,6 +58,7 @@ export default (signedIn = false) =>
             App,
           },
           {
+            resetOnBlur: true, //Reseta rota toda vez que saimos dela.
             tabBarOptions: {
               keyboardHidesTabBar: true,
               activeTintColor: '#FFF',
