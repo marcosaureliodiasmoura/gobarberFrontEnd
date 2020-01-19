@@ -3,6 +3,6 @@ import {View} from 'react-native';
 
 // import { Container } from './styles';
 
-export default function Confirmation() {
+export default function Confirmation({navigation}) {
   return <View />;
 }
